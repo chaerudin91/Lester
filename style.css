@@ -1243,19 +1243,19 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(5px);
     padding: var(--spacing-md);
     border-radius: var(--radius-md);
     min-width: 120px;
     box-shadow: var(--shadow-md);
     transition: all var(--transition-fast);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .hero-stat:hover {
     transform: translateY(-5px);
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     box-shadow: var(--shadow-lg);
 }
 
@@ -2148,4 +2148,8 @@ button {
 
 .cta-note i {
     color: var(--secondary);
-}
+} 
+.cta-note span {
+    font-weight: 600;
+    color: var(--primary);
+} 
